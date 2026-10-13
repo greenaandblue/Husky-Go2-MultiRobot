@@ -1,0 +1,16 @@
+# colcon build output
+build/
+install/
+log/
+
+# CMake build dirs for go2_tools
+go2_tools/**/build/
+
+# ROS 2 bags
+*.mcap
+*.db3
+
+# OS / editor
+.DS_Store
+.vscode/
+__pycache__/
